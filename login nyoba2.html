@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="login nyoba2.css">
+    <style>
+        body{
+            background-image: url(mknan.jpg);
+            background-size: 100% 100%;
+        }
+        p{
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="kotak_login">
+        <h1> <p class="tulisan_login">Rumah Kue Uzil</p></h1>
+        <form action="conect.php" method="POST">
+    <center><h1><label>silahkan login untuk menu kue sehat</label></h1></center><br>
+            <labe>Akun anda</label>
+ <center> <input type="text" name="akun" class="form_login" placeholder="Akun"><br>
+ </center>
+    <div>
+            <label>pasword</label>
+      <center> <td><input type="password" id="password" name="password" class="form_login" placeholder="password...">
+       
+      </center>
+      <input type="checkbox" onclick="showPassword()"><label style="font-size: 13px;">Show Password</label>
+    </br>
+      </div>
+            <center>
+             <a href="nyoba2.html"  input type="submit" class="tombol_login" >login</a>
+            <h6><li><a href="">Lupa pasword</a></li></h6>
+           
+ 
+            <br/>
+            <br/>
+           
+                <a class="link" href="https://support.google.com/mail/answer/56256?hl=id">buat akun</a>
+                </center>
+        </form>
+    </div>
+</body>
+</html>
+ 
+ 
+<script>
+    function showPassword()
+    {
+        var x = document.getElementById('password');
+        if(x.type == 'password'){
+            x.type = "text";
+        }else{
+            x.type = "password";
+        }
+    }
+</script>
